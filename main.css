@@ -192,12 +192,15 @@ li{
     z-index: 1;
 }
 .landing-text h1{
-    font-size: 14em;
+    font-size: 8em;
+    font-weight: 500;
     font-family: ThirdFont, sans-serif;
     background: linear-gradient(to right, #31c29e 25%, #9d33bb);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     padding: 1rem;
+    user-select: none;
+    line-height: 1.1;
 }
 
 .landing-text h6{
