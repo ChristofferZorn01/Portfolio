@@ -523,16 +523,36 @@ li{
 /*SoMe Icons End */
 
 /* media queries */
+@media screen and (max-width: 1120px) {
+
+    .thumb{
+        width: 30%;
+        height: 180px;
+    }
+
+    .extrapic{
+        width: 60%;
+    }
+
+    .nav-list {
+        flex-direction: column;
+    }
+
+    .about-details .nav-list {
+        flex-direction: row;
+    }
+}
 @media screen and (max-width: 768px){
     body{
         background-size: cover;
     }
     .landing-text h1{
-        font-size: 15rem;
+        font-size: 8rem;
+        line-height: 1.1;
     }
 
     .landing-text h6{
-        font-size: 1.7rem;
+        font-size: 2rem;
     }
 
     .nav-list{
@@ -540,7 +560,7 @@ li{
     }
 
     li{
-        margin: 2rem 0;
+        margin: 1.2rem 0;
     }
 
     .nav-link{
@@ -548,7 +568,7 @@ li{
     }
 
     .about-heading h1{
-        font-size: 10rem;
+        font-size: 6rem;
     }
 
     .section-heading h1{
