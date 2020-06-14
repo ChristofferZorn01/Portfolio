@@ -6,8 +6,8 @@
 }
 
 html{
-    font-size: 12px;
-    font-family: 'Roboto Light', sans-serif;
+    font-size: 10px;
+    font-family: "Open Sans", sans-serif;
     color: #eee;
 }
 
@@ -50,12 +50,14 @@ img{
 }
 
 .section-heading h1{
+    font-family: "Roboto", sans-serif;
     font-size: 3.5rem;
-    color: rgba(255, 255, 255, .3);
+    color: rgb(31, 130, 134);
     text-transform: uppercase;
-    font-weight: 300;
+    font-weight: 900;
     position: relative;
     margin-bottom: 1rem;
+    letter-spacing: 0.1rem;
 }
 .section-heading h1:before,
 .section-heading h1:after{
@@ -64,7 +66,7 @@ img{
     bottom: -.5rem;
     left: 50%;
     transform: translateX(-50%);
-    background-color: rgba(255, 255, 255, 0.75);
+    background-color: gray;
 }
 .section-heading h1:before{
     width: 10rem;
@@ -199,9 +201,10 @@ li{
 }
 
 .landing-text h6{
-    font-family: SecondFont, sans-serif;
-    font-size: 2rem;
-    font-weight: 600;
+    font-family: "Open Sans", sans-serif;
+    font-size: 3rem;
+    font-weight: 200;
+    margin-bottom: 2rem;
 }
 
 
@@ -222,8 +225,8 @@ li{
 }
 
 .about-heading h1{
+    color: rgba(31, 131, 134, 0.644);
     font-size: 10rem;
-    opacity: .3;
 }
 
 .about-heading h6{
@@ -542,7 +545,7 @@ li{
     }
 
     .about-heading h1{
-        font-size: 8rem;
+        font-size: 10rem;
     }
 
     .section-heading h1{
@@ -665,4 +668,9 @@ canvas {
 .skillicon-box {
     margin: 1rem;
     padding: 1rem;
+}
+
+.txt-type>.txt {
+    font-family: "Open Sans", "sans-serif";
+    border-right: 0.2rem solid #777;
 }
