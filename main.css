@@ -192,7 +192,7 @@ li{
     z-index: 1;
 }
 .landing-text h1{
-    font-size: 8em;
+    font-size: 8rem;
     font-weight: 500;
     font-family: ThirdFont, sans-serif;
     background: linear-gradient(to right, #31c29e 25%, #9d33bb);
@@ -569,7 +569,7 @@ li{
     }
 
     .about-heading h1{
-        font-size: 6rem;
+        font-size: 8rem;
     }
 
     .section-heading h1{
@@ -613,7 +613,7 @@ li{
     }
 
     .landing-text h1{
-        font-size: 8rem;
+        font-size: 7rem;
     }
 
     .landing-text h6{
