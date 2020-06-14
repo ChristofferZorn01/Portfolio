@@ -237,13 +237,14 @@ li{
     font-weight: 300;
 }
 
-.profile-img{
+.profile-img {
+    max-width: 40rem;
     flex: 1;
-    margin-right: 5rem;
+    margin: 0 3rem 7rem 0;
 }
 
 .profile-img img{
-    border-radius: 60%;
+    border-radius: 50%;
 }
 
 .about-details{
