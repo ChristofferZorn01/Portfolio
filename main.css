@@ -243,7 +243,7 @@ li{
 }
 
 .profile-img img{
-    border-radius: 50%;
+    border-radius: 60%;
 }
 
 .about-details{
@@ -628,7 +628,7 @@ li{
     }
 
     .profile-img{
-        margin: 0 0 7rem 0;
+        margin: 0 7rem 7rem 7rem;
     }
 
     .portfolio-item{
@@ -636,9 +636,9 @@ li{
     }
 
     .portfolio-img{
-        margin: 0 0 2rem 0;
+        max-width: 100%;
+        margin-bottom: 2rem;
         order: 1;
-        border-radius: 50%;
     }
 
     .portfolio-description{
