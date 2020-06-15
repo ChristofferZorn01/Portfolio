@@ -330,6 +330,12 @@ li{
     flex: 1;
 }
 
+.responsive {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+}
+
 .portfolio-img img{
     border-radius: 8px;
     width: 100%;
