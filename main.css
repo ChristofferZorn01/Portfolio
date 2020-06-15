@@ -531,13 +531,9 @@ li{
 /* media queries */
 @media screen and (max-width: 1120px) {
 
-    .thumb{
-        width: 30%;
-        height: 180px;
-    }
-
-    .extrapic{
-        width: 60%;
+    .responsive{
+        width: 100%;
+        height: auto;
     }
 
     .nav-list {
