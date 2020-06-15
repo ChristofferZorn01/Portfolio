@@ -334,14 +334,10 @@ li{
     width: 100%;
     max-width: 400px;
     height: auto;
+    padding-bottom: 40px;
 }
 
-.portfolio-img img{
-    border-radius: 8px;
-    width: 100%;
-    max-width: 400px;
-    height: auto;
-}
+
 
 .portfolio-description{
 }
@@ -353,10 +349,10 @@ li{
 }
 
 .portfolio-description h6{
-    font-size: 1.5rem;
+    font-size: 4.5rem;
     text-transform: uppercase;
     font-weight: 300;
-    opacity: 0.3;
+    color: rgb(31, 130, 134);
 }
 
 .portfolio-description .cta{
