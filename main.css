@@ -331,9 +331,11 @@ li{
 
 .portfolio-img img{
     border-radius: 8px;
-    height: 400px;
-    width: 400px;
+    width: 100%
+    max-width: 400px;
+    height: auto;
 }
+
 .portfolio-description{
 }
 
