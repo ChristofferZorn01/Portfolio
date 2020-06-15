@@ -536,6 +536,11 @@ li{
         height: auto;
     }
 
+    .responsiveprofile{
+        width: 100%;
+        height: auto;
+    }
+
     .nav-list {
         flex-direction: column;
     }
